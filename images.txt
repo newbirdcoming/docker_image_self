@@ -3,3 +3,8 @@
 --platform=linux/amd64,linux/arm64 nginx:latest
 --platform=linux/amd64,linux/arm64 mysql:5.7
 --platform=linux/amd64 mysql:8.0
+--platform=linux/amd64 python:3.9
+--platform=linux/amd64 mongo:latest
+--platform=linux/amd64 redis:latest
+--platform=linux/amd64 centos:latest
+--platform=linux/amd64 nacos:latest
