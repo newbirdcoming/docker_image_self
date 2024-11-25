@@ -8,3 +8,4 @@
 --platform=linux/amd64 redis:latest
 --platform=linux/amd64 centos:latest
 --platform=linux/amd64 nacos:latest
+--platform=linux/amd64 minio:latest
