@@ -15,4 +15,4 @@
 --platform=linux/amd64 milvusdb/milvus:v2.3.1
 --platform=linux/amd64 zilliz/attu:v2.2.8
 #openjdk
---platform=linux/amd64 openjdk:8
+#--platform=linux/amd64 openjdk:8
