@@ -16,3 +16,5 @@
 --platform=linux/amd64 zilliz/attu:v2.2.8
 #openjdk
 --platform=linux/amd64 openjdk:8
+#dbgate
+--platform=linux/amd64 dbgate/dbgate:latest
