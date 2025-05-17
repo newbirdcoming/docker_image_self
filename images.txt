@@ -20,8 +20,8 @@
 #doccano
 --platform=linux/amd64 doccano/doccano:latest
 #rocketmq
---platform=linux/amd64 apache/rocketmq:4.9.4
---platform=linux/amd64 apacherocketmq/rocketmq-dashboard:1.0.0
+--platform=linux/amd64 apache/rocketmq:4.7.1
+--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:latest
 
 #es
 --platform=linux/amd64 elasticsearch:7.12.1
