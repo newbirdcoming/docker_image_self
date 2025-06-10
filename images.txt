@@ -30,4 +30,6 @@
 --platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
 --platform=linux/amd64 docker.io/bitnami/kafka:3.4
 --platform=linux/amd64 obsidiandynamics/kafdrop
+#chrislusf/seaweedfs:latest
+--platform=linux/amd64 chrislusf/seaweedfs:latest
 
