@@ -14,7 +14,7 @@
 #nacos
 #--platform=linux/amd64 nacos/nacos-server:latest
 #minio
---platform=linux/amd64 minio/minio:latest
+#--platform=linux/amd64 minio/minio:latest
 #milvus相关
 #--platform=linux/amd64 quay.io/coreos/etcd:v3.5.5
 #--platform=linux/amd64 minio/minio:RELEASE.2023-03-20T20-16-18Z
@@ -31,12 +31,15 @@
 #--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:latest
 #es
 #--platform=linux/amd64 elastic/elasticsearch:8.10.0
---platform=linux/amd64 elasticsearch:8.18.5
+#--platform=linux/amd64 elasticsearch:8.18.5
 #--platform=linux/amd64 kibana:8.10.0
 #zookeeper 
 #--platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
 #kafka
---platform=linux/amd64 apache/kafka:3.9.0
+#--platform=linux/amd64 apache/kafka:3.9.0
+--platform=linux/amd64 wurstmeister/kafka:latest
+#zookeeper
+--platform=linux/amd64 wurstmeister/zookeeper:latest
 #kafdrop
 #--platform=linux/amd64 obsidiandynamics/kafdrop
 #chrislusf/seaweedfs:latest
