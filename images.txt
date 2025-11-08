@@ -32,10 +32,12 @@
 #es
 --platform=linux/amd64 elasticsearch:7.12.1
 --platform=linux/amd64 kibana:7.12.1
-#zookeeper
+#zookeeper 
 --platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
+#kafka
 --platform=linux/amd64 docker.io/bitnami/kafka:3.4
---platform=linux/amd64 obsidiandynamics/kafdrop
+#kafdrop
+#--platform=linux/amd64 obsidiandynamics/kafdrop
 #chrislusf/seaweedfs:latest
---platform=linux/amd64 chrislusf/seaweedfs:latest
+#--platform=linux/amd64 chrislusf/seaweedfs:latest
 
