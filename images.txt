@@ -1,14 +1,21 @@
 # 支持指定架构、多架构
+#nginx
 --platform=linux/amd64,linux/arm64 nginx:latest
-#--platform=linux/amd64,linux/arm64 mysql:5.7
+#mysql
 --platform=linux/amd64 mysql:8.0
+#python
 --platform=linux/amd64 python:3.9
+#mongo
 --platform=linux/amd64 mongo:latest
+#redis
 --platform=linux/amd64 redis:latest
+#centos
 --platform=linux/amd64 centos:latest
+#nacos
 --platform=linux/amd64 nacos/nacos-server:latest
+#minio
 --platform=linux/amd64 minio/minio:latest
-#milvus
+#milvus相关
 --platform=linux/amd64 quay.io/coreos/etcd:v3.5.5
 --platform=linux/amd64 minio/minio:RELEASE.2023-03-20T20-16-18Z
 --platform=linux/amd64 milvusdb/milvus:v2.3.1
@@ -22,7 +29,6 @@
 #rocketmq
 --platform=linux/amd64 apache/rocketmq:4.7.1
 --platform=linux/amd64 apacherocketmq/rocketmq-dashboard:latest
-
 #es
 --platform=linux/amd64 elasticsearch:7.12.1
 --platform=linux/amd64 kibana:7.12.1
