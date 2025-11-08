@@ -1,41 +1,41 @@
 # 支持指定架构、多架构
 #nginx
---platform=linux/amd64,linux/arm64 nginx:latest
+#--platform=linux/amd64,linux/arm64 nginx:latest
 #mysql
---platform=linux/amd64 mysql:8.0
+#--platform=linux/amd64 mysql:8.0
 #python
---platform=linux/amd64 python:3.9
+#--platform=linux/amd64 python:3.9
 #mongo
---platform=linux/amd64 mongo:latest
+#--platform=linux/amd64 mongo:latest
 #redis
---platform=linux/amd64 redis:latest
+#--platform=linux/amd64 redis:latest
 #centos
---platform=linux/amd64 centos:latest
+#--platform=linux/amd64 centos:latest
 #nacos
---platform=linux/amd64 nacos/nacos-server:latest
+#--platform=linux/amd64 nacos/nacos-server:latest
 #minio
---platform=linux/amd64 minio/minio:latest
+#--platform=linux/amd64 minio/minio:latest
 #milvus相关
---platform=linux/amd64 quay.io/coreos/etcd:v3.5.5
---platform=linux/amd64 minio/minio:RELEASE.2023-03-20T20-16-18Z
---platform=linux/amd64 milvusdb/milvus:v2.3.1
---platform=linux/amd64 zilliz/attu:v2.2.8
+#--platform=linux/amd64 quay.io/coreos/etcd:v3.5.5
+#--platform=linux/amd64 minio/minio:RELEASE.2023-03-20T20-16-18Z
+#--platform=linux/amd64 milvusdb/milvus:v2.3.1
+#--platform=linux/amd64 zilliz/attu:v2.2.8
 #openjdk
---platform=linux/amd64 openjdk:8
+#--platform=linux/amd64 openjdk:8
 #dbgate
---platform=linux/amd64 dbgate/dbgate:latest
+#--platform=linux/amd64 dbgate/dbgate:latest
 #doccano
---platform=linux/amd64 doccano/doccano:latest
+#--platform=linux/amd64 doccano/doccano:latest
 #rocketmq
---platform=linux/amd64 apache/rocketmq:4.7.1
---platform=linux/amd64 apacherocketmq/rocketmq-dashboard:latest
+#--platform=linux/amd64 apache/rocketmq:4.7.1
+#--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:latest
 #es
---platform=linux/amd64 elasticsearch:7.12.1
---platform=linux/amd64 kibana:7.12.1
+--platform=linux/amd64 elasticsearch:8.10.0
+#--platform=linux/amd64 kibana:8.10.0
 #zookeeper 
---platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
+#--platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
 #kafka
---platform=linux/amd64 docker.io/bitnami/kafka:3.4
+#--platform=linux/amd64 docker.io/bitnami/kafka:3.4
 #kafdrop
 #--platform=linux/amd64 obsidiandynamics/kafdrop
 #chrislusf/seaweedfs:latest
