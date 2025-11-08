@@ -30,7 +30,8 @@
 #--platform=linux/amd64 apache/rocketmq:4.7.1
 #--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:latest
 #es
---platform=linux/amd64 elastic/elasticsearch:8.10.0
+#--platform=linux/amd64 elastic/elasticsearch:8.10.0
+--platform=linux/amd64 elasticsearch:8.18.5
 #--platform=linux/amd64 kibana:8.10.0
 #zookeeper 
 #--platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
