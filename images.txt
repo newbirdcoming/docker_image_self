@@ -45,5 +45,5 @@
 #chrislusf/seaweedfs:latest
 #--platform=linux/amd64 chrislusf/seaweedfs:latest
 #jdk
-#--platform=linux/amd64 openjdk:8
+--platform=linux/amd64 openjdk:8
 
