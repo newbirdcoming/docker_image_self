@@ -37,11 +37,13 @@
 #--platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
 #kafka
 #--platform=linux/amd64 apache/kafka:3.9.0
---platform=linux/amd64 wurstmeister/kafka:latest
+#--platform=linux/amd64 wurstmeister/kafka:latest
 #zookeeper
---platform=linux/amd64 wurstmeister/zookeeper:latest
+#--platform=linux/amd64 wurstmeister/zookeeper:latest
 #kafdrop
 #--platform=linux/amd64 obsidiandynamics/kafdrop
 #chrislusf/seaweedfs:latest
 #--platform=linux/amd64 chrislusf/seaweedfs:latest
+#jdk
+#--platform=linux/amd64 openjdk:8
 
