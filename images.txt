@@ -32,7 +32,8 @@
 #es
 #--platform=linux/amd64 elastic/elasticsearch:8.10.0
 #--platform=linux/amd64 elasticsearch:8.18.5
---platform=linux/amd64 kibana:8.10.0
+#kibana
+--platform=linux/amd64 kibana:7.17.29
 #zookeeper 
 #--platform=linux/amd64 docker.io/bitnami/zookeeper:3.9
 #kafka
