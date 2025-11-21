@@ -39,6 +39,8 @@
 #kafka
 #--platform=linux/amd64 apache/kafka:3.9.0
 #--platform=linux/amd64 wurstmeister/kafka:latest
+#kafka-ui
+--platform=linux/amd64 provectuslabs/kafka-ui:latest
 #zookeeper
 #--platform=linux/amd64 wurstmeister/zookeeper:latest
 #kafdrop
