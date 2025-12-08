@@ -9,6 +9,7 @@
 #--platform=linux/amd64 mongo:latest
 #redis
 #--platform=linux/amd64 redis:latest
+--platform=linux/amd64 redis:4.0-alpine
 #centos
 #--platform=linux/amd64 centos:latest
 #nacos
@@ -48,5 +49,5 @@
 #chrislusf/seaweedfs:latest
 #--platform=linux/amd64 chrislusf/seaweedfs:latest
 #tika
---platform=linux/amd64 apache/tika:latest
+#--platform=linux/amd64 apache/tika:latest
 
