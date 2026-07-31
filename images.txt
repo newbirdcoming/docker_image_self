@@ -50,4 +50,7 @@
 #--platform=linux/amd64 chrislusf/seaweedfs:latest
 #tika
 #--platform=linux/amd64 apache/tika:latest
-
+#golang:1.22-alpine
+--platform=linux/amd64 golang:1.22-alpine
+#alpine:3.20
+--platform=linux/amd64 alpine:3.20
